@@ -20,7 +20,6 @@ To run the Jupyter Notebook, you need to have the following dependencies install
 
 You can install the required libraries using pip:
 
-```bash
 pip install -r requirements.txt
 
 
