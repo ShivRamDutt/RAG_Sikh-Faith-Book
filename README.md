@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 
 
-##Troubleshooting
+## Troubleshooting
 If you encounter an error related to vectorstore libcudart.so.11, follow these steps:
 
 1. Search for the File: Go to the following location in File Explorer:
