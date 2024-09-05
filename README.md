@@ -28,7 +28,11 @@ pip install -r requirements.txt
 If you encounter an error related to vectorstore libcudart.so.11, follow these steps:
 
 1. Search for the File: Go to the following location in File Explorer:
+   ```bash
   "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64\libcudart.so.11.0"
-2. Remove the File: Locate and delete the file named libcudart.so.11.
-3. Create a Symbolic Link: Open Command Prompt as an administrator and run the following command to create a symbolic link:
+  ```
+3. Remove the File: Locate and delete the file named libcudart.so.11.
+4. Create a Symbolic Link: Open Command Prompt as an administrator and run the following command to create a symbolic link:
+```bash
   mklink "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64\libcudart.so.11.0" "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64\libcudart.so"
+```
