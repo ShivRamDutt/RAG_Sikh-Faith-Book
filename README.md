@@ -33,3 +33,15 @@ If you encounter an error related to vectorstore libcudart.so.11, follow these s
 3. Remove the File: Locate and delete the file named libcudart.so.11.
 4. Create a Symbolic Link: Open Command Prompt as an administrator and run the following command to create a symbolic link:
   mklink "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64\libcudart.so.11.0" "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64\libcudart.so"
+
+
+
+urls = [
+    "https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v4-0-to-v4-0-1-Summary-of-Changes.pdf",
+    "https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v4_0_1.pdf",
+    "https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Reporting%20Template%20or%20Form/PCI-DSS-v4-0-1-DESV-AOC.pdf",
+    "https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Reporting%20Template%20or%20Form/PCI-DSS-v4-0-1-ROC-AOC-Service-Providers.pdf",
+    "https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Supporting%20Document/PCI_DSS-QRG-v4_0.pdf",
+    "https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Reporting%20Template%20or%20Form/PCI-DSS-v4-0-1-ROC-AOC-Merchants.pdf",
+    
+]
